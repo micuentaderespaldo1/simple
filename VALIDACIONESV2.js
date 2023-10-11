@@ -1,5 +1,3 @@
-<span class="titparr titparrJS">Valida textbox</span>
-<script>
 $(document).ready(function () {
     if($("button:contains('Título')").length == 0) {//IF RUNNING
         var PBstop=false;
@@ -112,4 +110,3 @@ $(document).ready(function () {
         });
     }//IF RUNNING
  });
-</script>
